@@ -1,6 +1,6 @@
 var target = document.getElementById('main');
 
-for (var i = 1; i <= 100; i++) {
+for (var i = 1; i <= 200; i++) {
 	var thomas = document.createElement('div');
 	thomas.classList.add('circle');
 	if (i % 15 === 0) {
